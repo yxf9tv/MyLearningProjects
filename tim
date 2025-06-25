@@ -1,0 +1,18 @@
+from turtle import Turtle
+
+class Tim(Turtle):
+    def __init__(self):
+        super().__init__()      # let's try initializing the easy way too
+        self.color("black")
+        self.shape("turtle")
+        self.penup()
+        self.goto(0, -265)
+        self.setheading(90)
+
+    def start_pos(self):
+        self.hideturtle()
+        self.penup()
+        self.goto(0, -280)
+
+    def jump(self):
+        self.forward(20)
