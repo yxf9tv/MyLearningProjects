@@ -1,0 +1,20 @@
+# turtle
+
+# white bg screen
+
+# random objects moving at different speeds across the screen
+
+# turtle only moves forward on Up key
+
+# level 2:
+# upon crossing the river, the turtle hits the other side and is
+# repositioned back to the start but at a higher level
+# now the fish start moving faster
+# goto(0,-280)
+# time(0.1)
+
+# When the turtle hits a fish it's game over
+
+# fish move across the screen from right to left
+
+# when turtle hits fish game_on = False
